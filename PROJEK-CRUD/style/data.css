@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    border: #b48605 solid 2px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    background-color: #b48605;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+  
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+th {
+    background-color: #b48605;
+    text-align: center;
+}
+
+.tambah{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.logout{
+    position: relative;
+    top: 50px;
+    left: 790px;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.aksi{
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: #b48605;
+    
+}
+
+a{
+    background-color: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+

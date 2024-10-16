@@ -71,7 +71,7 @@ button{
     margin-top: 50px;
     height: 30%;
     width:80%;
-    margin-bottom: 20px;
+    padding: 10px;
     border-radius: 10px;
     border: none;
     background-color: #c79b24;
@@ -92,4 +92,23 @@ p{
 .regist p{
     color: #8f8c8c;
     font-size: 14px;
+}
+
+.sosmed{
+    width: 30%;
+    padding: 50px;
+    float: right;
+    text-align: center;
+    /* border: 1px solid ; */
+
+}
+.sosmed ul li{
+    display: inline-block;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+}
+
+.sosmed p{
+    margin-left: 50px;
+    text-align: center;
 }

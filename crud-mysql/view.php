@@ -30,6 +30,8 @@ $karyawan = $data->fetch_all(MYSQLI_ASSOC);
     <title>Document</title>
 </head>
 <body>
+
+    <a href="insert.php"><input type="submit" value="Tambah Data"></a>
     <table border="1" width="50%" align="center">
         <tr>
             <th>No</th>
@@ -49,7 +51,6 @@ $karyawan = $data->fetch_all(MYSQLI_ASSOC);
                 <td><?= "Rp. ".number_format($k['gaji'],0,',','.')?></td>
                 <td><?= "Rp. ".number_format($k['gaji']*1.2,0,',','.')?></td>
                 <td><?= "Rp. ".number_format(($k['gaji']*1.2)+$k['gaji'],0,',','.')?></td>
-                
                 <td><?= $k['tgl_masuk'] ?></td>
             </tr>
         <?php endforeach; ?>

@@ -2,16 +2,21 @@
     margin: auto;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #ddd;
+ }
 .container{
     width: 80%;
     margin: auto;
     margin-top: 100px;
     border: #b48605 solid 2px;
     border-radius: 10px;
+    background-color: white;
 }
 h2{
     text-align: center;
     background-color: #b48605;
+    padding: 20px;
 }
 
 form{
@@ -33,6 +38,7 @@ form input {
     width: 300px;
     padding: 10px;
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 button{
@@ -40,20 +46,32 @@ button{
     border-radius: 5px;
     background-color: #b48605;
     padding: 5px;
+    width: 300px;
 }
 
-.lihat{
-    text-align: center;
-    margin-left: 50px;
+a{
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 10px;
+    border: none;
+    color:white ;
+    
+}
+.button{
+    margin-top: 80px;
+    margin-left: 65px;
+    
+}
+.kembali{
+    background-color: #b48605;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
 
 .logout{
-    position: relative;
-    top: 50px;
-    left: 790px;
-    text-align: center;
-    margin-left: 120px;
+    background-color: #b48605;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
-
-
 

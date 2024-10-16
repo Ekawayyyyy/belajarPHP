@@ -51,8 +51,10 @@
     <div class="container"> 
         <h2>form registrasi mahasiswa</h2>
 
-        <a href="logout.php" class="logout"><input type="submit" value="Logout"></a><br><br>
-        <a href="data.php" class="lihat"><input type="submit" value="Lihat Data"></a>
+        <div class="button">
+            <a href="logout.php" class="logout">logout</a>
+            <a href="data.php" class="lihat">lihat data</a>
+        </div>
                        
         <form action="" method="post">
             <input type="text" name="nim" placeholder="masukkan nim" required><br>

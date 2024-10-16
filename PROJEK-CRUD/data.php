@@ -29,8 +29,11 @@ if(empty($_SESSION['username'])){
     <div class="container">
         
         <h2>Data Anggota GenBI</h2>
-        <a href="logout.php" class="logout"><input type="submit" value="Logout"></a><br><br>
-        <a href="create.php" class="tambah"><input type="submit" value="Tambah Data"></a>
+        <div class="button">
+            <a href="logout.php" class="logout">logout</a>
+            <a href="create.php" class="tambah">Add New</a>
+        </div>
+                   
         <table >
             <tr>
                 <th>No</th>
@@ -48,21 +51,20 @@ if(empty($_SESSION['username'])){
                     <td><?= $ang["jabatan"] ?></td>
                     <td><?= $ang["jurusan"] ?></td>
                     <td class="aksi">
-                        <button>
+                        <button class="edit">
                         <a href="edit.php?indeks=<?= $indeks ?>">Edit</a>
                         </button>
                        
-                        <button>
-                        <a href="delete.php?indeks=<?= $indeks++ ?>">Delete</a>
+                        <button class="delete">
+                            <a href="delete.php?indeks=<?= $indeks++ ?>">Delete</a>
                         </button>
-                        
                     </td>
                 </tr>
             <?php } ?>
         </table><br><br>
 
     </div>
-   
-   
+
+
 </body>
 </html>

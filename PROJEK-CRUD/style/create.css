@@ -2,18 +2,36 @@
     margin: auto;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #ddd;
+ }
 .container{
     width: 80%;
     margin: auto;
     margin-top: 100px;
-    border: #b48605 solid 2px;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px rgb(167, 171, 177);
+    background-color: white;
+    border: none;
 }
 h2{
     text-align: center;
     background-color: #b48605;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    
+}
+.tombol{
+    display: inline;
+    text-decoration: none;
+    background-color: #b48605;
+    margin-top: 20px;
 }
 
+.tombol a{
+    text-decoration: none;
+    display: flex;
+}
 form{
     text-align: center;
     border: 1px solid #b48605;
@@ -26,33 +44,50 @@ form{
     margin-top: 50px;
     box-sizing: border-box;
 
+
+    
+}
+input {
+    width:30%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #b48605;
+}
+
+.button{
+    margin-top: 80px;
+    margin-left: 65px;
     
 }
 
-form input {
-    width: 300px;
+button{
+    width: 30%;
+    background-color: #b48605;
     padding: 10px;
-    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-button{
-    border-radius: 5px;
-    background-color: #b48605;
-    padding: 5px;
+a{
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 10px;
+    border: none;
+    
 }
 
 .lihat{
-    text-align: center;
-    margin-left: 50px;
+    background-color: #b48605;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
 
 .logout{
-    position: relative;
-    top: 50px;
-    left: 780px;
-    text-align: center;
-    margin-left: 120px;
+    background-color: #b48605;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 }
-
-
-

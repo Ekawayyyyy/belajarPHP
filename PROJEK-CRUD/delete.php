@@ -21,4 +21,7 @@ file_put_contents('anggota.json', $json_update);
 //arahkan ke read
 header("location:data.php");
 
+
+echo "data berhasil dihapus";
+
 ?>

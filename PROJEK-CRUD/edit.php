@@ -32,7 +32,7 @@ if (isset($_POST["submit"])) {
 
     //arahkan ke tampilan data
     header("location:data.php");
-}
+};
 
 ?>
 
@@ -53,17 +53,41 @@ if (isset($_POST["submit"])) {
     <div class="container">
         
         <h2>UPDATE DATA</h2>
-        <a href="logout.php" class="logout"><input type="submit" value="Logout"></a><br><br>
-        <a href="data.php" class="lihat"><input type="submit" value="Lihat Data"></a>
+        <div class="button">
+            <a href="logout.php" class="logout">logout</a>
+            <a href="data.php" class="kembali">Kembali</a>
+        </div>
 
         
         <form action="" method="post">
-            <input type="text" name="nim" value="<?= $anggota[$indeks]["nim"]?>" required><br>
-            <input type="text" name="nama" value="<?= $anggota[$indeks]["nama"]?>" required><br>
-            <input type="text" name="jabatan" value="<?= $anggota[$indeks]["jabatan"]?>" required><br>
-            <input type="text" name="jurusan" value="<?= $anggota[$indeks]["jurusan"]?>" required><br>
-
-            <button type="submit" name="submit">simpan</button>
+            <table>
+                <tr>
+                    <td><label for="">NIM</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="nim" value="<?= $anggota[$indeks]["nim"]?>" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Nama</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" value="<?= $anggota[$indeks]["nama"]?>" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Jabatan</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="jabatan" value="<?= $anggota[$indeks]["jabatan"]?>" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Jurusan</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="jurusan" value="<?= $anggota[$indeks]["jurusan"]?>" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button type="submit" name="submit">simpan</button></td>
+                </tr>
+            </table>
+            
         </form>
     
     </div>

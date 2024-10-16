@@ -8,7 +8,7 @@
     
     $akun = [
     
-        ["username" => "ekaway", "password" => "ekaway123"],
+        ["username" => "ekaway", "password" => "111"],
     ];
     
     // biar kalau di refresh tetap nol
@@ -48,12 +48,16 @@
 <body>
 
     <form action="" method="post">
-        <h2>LOGIN</h2>
+        <h2> <b>FORM LOGIN</b></h2>
         <input type="username" name="username" placeholder="masukkan username">
         <input type="password" name="password" placeholder="masukkan password">
         <center>
-            <button type="submit" name="submit">Login</button>
+            <button type="submit" name="submit"><b>Login</b></button>
         </center>
+
+        <div class="regist">
+            <p color="blue">Do yout have a account ? Sign Up</p>
+        </div>
         <?php if( $kondisi ==2) { ?>
              <p>username dan password salah</p>
         <?php } ?>

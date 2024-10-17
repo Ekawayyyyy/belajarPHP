@@ -26,6 +26,8 @@ if(isset($_POST ['login'])){
         if($dt['username']==$_POST['username']&& $dt ['password']==$_POST['password']){
             $_SESSION['username']=$dt['username'];
             header('location:data.php');
+        }else{
+            echo "<script>alert('username atau password salah')</script>";
         }
     }
 }
@@ -45,17 +47,26 @@ if(isset($_POST ['login'])){
     
 </head>
 <body>
+<h1 align="center">SELAMAT DATANG</h1>
     <h3 align="center">CRUD MYSQL</h3>
+    <div class="card-form">
+        <!-- <div class="image"><img src="./assets/login.jpg" alt=""></div> -->
+        <div class="form"></div>
+             
+    </div>
+
     <form action="" method="post">
-        
         <h2> <b>FORM LOGIN</b></h2>
         <input type="username" name="username" placeholder="masukkan username">
         <input type="password" name="password" placeholder="masukkan password">
         <center>
             <button type="submit" name="login"><b>Login</b></button>
         </center>
-        <br>
+        <div class="regist">
+            <p color="blue">Do yout have a account ? Sign Up</p>
+        </div>
     </form>
+
 </body>
 </html>
 

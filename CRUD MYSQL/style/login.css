@@ -2,10 +2,12 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-  margin-top: 200px;
+  margin-top: 150px;
   /* background-color: rgb(134, 89, 6); */
-  background: rgb(180,134,5);
-  background: linear-gradient(90deg, rgba(180,134,5,1) 0%, rgba(255,255,255,1) 100%);
+  background-image: url('../assets/bg-body.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 .container{
@@ -19,14 +21,38 @@ body{
     padding-top: 5px;
     
 }
+
+.card-form{
+    width: 800px;
+    ;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid rgb(180, 134, 5);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 1px  #7e7c7c;
+}
+.image{
+    display: flex;
+    float: left;
+}
+.form{
+    display: flex;
+    float: right;
+}
+.image img{
+    width: 50%;
+    
+}
 ul{
     text-align: center;
 }
 h2{
     margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
     text-align: center;
-    color: #ffffff;
-    background-color: #b48605;
+    color: #DABF92;
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
@@ -52,7 +78,7 @@ form{
     /* padding: 0 30px 30px 30px; */
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 2px 1px  black;
+    box-shadow: 1px 2px 1px  #7e7c7c;
 
 }
 
@@ -74,9 +100,9 @@ button{
     padding: 10px;
     border-radius: 10px;
     border: none;
-    background-color: #c79b24;
+    background-color: #DABF92;
     font-size: 18px;
-    border: 2px solid #b48605;
+    border: 2px solid #DABF92;
     
 }
 

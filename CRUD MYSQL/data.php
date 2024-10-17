@@ -68,7 +68,7 @@ $karyawan = $data->fetch_all(MYSQLI_ASSOC);
                         </button>
                        
                         <button class="delete">
-                            <a href="delete.php?indeks=<?= $indeks++ ?>">Delete</a>
+                            <a href="delete.php?id=<?= $k['id'] ?>">Delete</a>
                         </button>
                     </td>
                 </tr>

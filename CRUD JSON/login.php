@@ -46,22 +46,36 @@
     
 </head>
 <body>
+    <h1 align="center">SELAMAT DATANG</h1>
+    <h3 align="center">FORM LOGIN CRUD JSON</h3>
+
+    <div class="card-form">
+        <!-- <div class="image"><img src="./assets/login.jpg" alt=""></div> -->
+        <div class="form">
+             
+    </div>
+
+        
+        
+    </div>
 
     <form action="" method="post">
-        <h2> <b>FORM LOGIN</b></h2>
-        <input type="username" name="username" placeholder="masukkan username">
-        <input type="password" name="password" placeholder="masukkan password">
-        <center>
-            <button type="submit" name="submit"><b>Login</b></button>
-        </center>
+    
+                <h2> <b>Get Started</b></h2>
+                <input type="username" name="username" placeholder="masukkan username">
+                <input type="password" name="password" placeholder="masukkan password">
+                <center>
+                    <button type="submit" name="submit"><b>Login</b></button>
+                </center>
 
-        <div class="regist">
-            <p color="blue">Do yout have a account ? Sign Up</p>
-        </div>
-        <?php if( $kondisi ==2) { ?>
-             <p>username dan password salah</p>
-        <?php } ?>
-    </form>
+                <div class="regist">
+                    <p color="blue">Do yout have a account ? Sign Up</p>
+                </div>
+                <?php if( $kondisi ==2) { ?>
+                        <script>alert('username atau password salah')</script>
+                <?php } ?>
+            </form>
+   
 </body>
 </html>
 

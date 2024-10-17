@@ -1,27 +1,19 @@
 <?php 
-//mengambil data json
-$json_data = file_get_contents('anggota.json');
+$host = "localhost";
+$user = "root";
+$pass = "";
+$database = "belajar_web";
 
-//konversi json ke array
-$anggota = json_decode($json_data, true);
+$koneksi = mysqli_connect($host, $user, $pass, $database);
 
-//hapus data
-$indeks = $_GET["indeks"];
-unset($anggota[$indeks]);
+if (mysqli_connect_error()) {
+    echo "Koneksi database gagal : " . mysqli_connect_error();
+}
 
-//reset id pada array
-$anggota = array_values($anggota);
+$id = $_GET['id'];
 
-//konversi kembali array ke json
-$json_update = json_encode($anggota, JSON_PRETTY_PRINT);
+$data = $koneksi->query("DELETE FROM karyawan WHERE id = '$_GET[id]'");
 
-//simpan data
-file_put_contents('anggota.json', $json_update);
-
-//arahkan ke read
-header("location:data.php");
-
-
-echo "data berhasil dihapus";
+header('location:data.php');
 
 ?>

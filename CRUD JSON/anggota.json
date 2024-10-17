@@ -1,11 +1,5 @@
 [
     {
-        "nim": "60900119002",
-        "nama": "suci ramadani",
-        "jabatan": "ketua",
-        "jurusan": "ekonomi"
-    },
-    {
         "nim": "90900120035",
         "nama": "afifah nahda rafanda",
         "jabatan": "wakil ketua",
@@ -34,5 +28,17 @@
         "nama": "Sri Salsabila",
         "jabatan": "Koordinator",
         "jurusan": "Sistem Informasi"
+    },
+    {
+        "nim": "60900112054",
+        "nama": "Muawyah",
+        "jabatan": "Koordinator Kaderisasi",
+        "jurusan": "Teknik informatika"
+    },
+    {
+        "nim": "90900120035",
+        "nama": "Suci Ramadani",
+        "jabatan": "Ketua Umum",
+        "jurusan": "Ekonomi"
     }
 ]

@@ -50,19 +50,14 @@
     <h3 align="center">FORM LOGIN CRUD JSON</h3>
 
     <div class="card-form">
-        <!-- <div class="image"><img src="./assets/login.jpg" alt=""></div> -->
+        <div class="image"><img src="./assets/login.jpg" alt=""></div>
         <div class="form">
-             
-    </div>
-
-        
-        
-    </div>
-
-    <form action="" method="post">
-    
+            <form action="" method="post">
+                
                 <h2> <b>Get Started</b></h2>
-                <input type="username" name="username" placeholder="masukkan username">
+                <label for="username">Username</label>
+                <input type="username" name="username" placeholder="masukkan username"><br>
+                <label for="password">Password</label>
                 <input type="password" name="password" placeholder="masukkan password">
                 <center>
                     <button type="submit" name="submit"><b>Login</b></button>
@@ -75,6 +70,15 @@
                         <script>alert('username atau password salah')</script>
                 <?php } ?>
             </form>
+        </div>
+             
+    </div>
+
+        
+        
+    </div>
+
+   
    
 </body>
 </html>

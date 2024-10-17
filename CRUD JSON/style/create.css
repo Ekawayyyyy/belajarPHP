@@ -34,7 +34,7 @@ h2{
 }
 form{
     text-align: center;
-    border: 1px solid #b48605;
+    border: 1px solid #DABF92;
     border-radius: 10px;
     width: 90%;
     padding-top: 20px;
@@ -52,7 +52,7 @@ input {
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    border: 1px solid #b48605;
+    border: 1px solid #DABF92;
 }
 
 .button{
@@ -63,7 +63,7 @@ input {
 
 button{
     width: 30%;
-    background-color: #b48605;
+    background-color: #DABF92;
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -81,13 +81,13 @@ a{
 }
 
 .lihat{
-    background-color: #b48605;
+    background-color: #DABF92;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }
 
 .logout{
-    background-color: #b48605;
+    background-color: #DABF92;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }

@@ -9,19 +9,19 @@ body{
     width: 80%;
     margin: auto;
     margin-top: 100px;
-    border: #b48605 solid 2px;
+    border: #DABF92 solid 2px;
     border-radius: 10px;
     background-color: white;
 }
 h2{
     text-align: center;
-    background-color: #b48605;
+    background-color: #DABF92;
     padding: 20px;
 }
 
 form{
     text-align: center;
-    border: 1px solid #b48605;
+    border: 1px solid #DABF92;
     border-radius: 10px;
     width: 90%;
     padding-top: 20px;
@@ -44,7 +44,7 @@ form input {
 button{
     margin-top: 20px;
     border-radius: 5px;
-    background-color: #b48605;
+    background-color: #DABF92;
     padding: 5px;
     width: 300px;
 }
@@ -64,13 +64,13 @@ a{
     
 }
 .kembali{
-    background-color: #b48605;
+    background-color: #DABF92;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }
 
 .logout{
-    background-color: #b48605;
+    background-color: #DABF92;
     border-radius: 10px;
     color: rgb(255, 255, 255);
 }

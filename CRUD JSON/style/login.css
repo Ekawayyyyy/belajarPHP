@@ -12,43 +12,39 @@ body{
   background-attachment: fixed;
 
 }
-.container{
-    margin: auto;
-    
-}
 
 .card-form{
+    display: flex;
+    background-color: white;
     width: 800px;
-
-    margin: auto;
-    margin-top: 50px;
-    border: 1px solid rgb(180, 134, 5);
+    margin:auto;
+    box-shadow: 24px 8px 24px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 2px 1px  #7e7c7c;
+    overflow: hidden;
 }
 .image{
+    width: 50%;
+    background-color: #e0f7ff;
     display: flex;
-    float: left;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 .form{
-    display: flex;
-    float: right;
-}
-.image img{
+    padding: 40px;
     width: 50%;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fffaf0;
 }
-.nav{
-    background-color: #b48605;
+
+.image img{
     width: 100%;
-    height: 50px;
-    padding-top: 5px;
+    height: 100%;
     
 }
-ul{
-    text-align: center;
-}
+
 h2{
     margin: 0;
     text-align: center;
@@ -58,13 +54,6 @@ h2{
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
-.nav ul li{
-    display: inline;
-    margin-left: 50px;
-    color: rgb(255, 255, 255);
-    
-
-}
 a{
     text-decoration: none;
     color: aliceblue;
@@ -73,30 +62,41 @@ a{
 }
 
 form{
-    width: 30%;
-    border: 1px solid rgb(180, 134, 5);
+    width: 100%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 0px;
+    float: right;
     /* padding: 0 30px 30px 30px; */
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 2px 1px  #7e7c7c;
+   
+  
 
 }
 
 input{
     /* display: inline; */
-    height: 30px;
+    height: 40px;
     width: 80%;
     border: 1px solid gray;
-    margin: 30px 0px 0px 48px;
-    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-left: 30px;
     background-color: none;
     
 }
+label{
+    font-size: 12px;
+    margin: 30px;
+}
 
+ input:focus {
+    border-color: #DABF92;
+    outline: none;
+}
 button{
-    margin-top: 50px;
+    margin-top: 30px;
     height: 30%;
     width:80%;
     padding: 10px;
@@ -120,23 +120,4 @@ p{
 .regist p{
     color: #8f8c8c;
     font-size: 14px;
-}
-
-.sosmed{
-    width: 30%;
-    padding: 50px;
-    float: right;
-    text-align: center;
-    /* border: 1px solid ; */
-
-}
-.sosmed ul li{
-    display: inline-block;
-    padding: 0 0 0 20px;
-    box-sizing: border-box;
-}
-
-.sosmed p{
-    margin-left: 50px;
-    text-align: center;
 }

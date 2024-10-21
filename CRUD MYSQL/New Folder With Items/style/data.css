@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   background-color: #ddd;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(167, 171, 177);
+    background-color: white;
+}
+h2{
+    text-align: center;
+    background-color: #b48605;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+  
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+th {
+    background-color: #b48605;
+    text-align: center;
+}
+tr:nth-child(odd){
+    background-color: rgb(233, 230, 227);
+
+}
+
+
+.aksi{
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    /* background-color: #b48605; */
+    
+}
+.edit{
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+.delete{
+    background-color: rgb(214, 48, 48);
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 10px;
+    border: none;
+    color: white ;
+    
+}
+.button{
+    margin-top: 80px;
+    margin-left: 65px;
+    
+}
+.tambah{
+    background-color: #b48605;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.logout{
+    background-color: #b48605;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+

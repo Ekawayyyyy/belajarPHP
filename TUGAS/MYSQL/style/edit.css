@@ -1,0 +1,79 @@
+*{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #ddd;
+ }
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    border: #007bff solid 2px;
+    border-radius: 10px;
+    background-color: white;
+}
+h2{
+    text-align: center;
+    background-color: #007bff;
+    padding: 20px;
+}
+
+form{
+    text-align: center;
+    border: 1px solid #007bff;
+    border-radius: 10px;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+    
+}
+
+form input {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    padding: 5px;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 10px;
+    border: none;
+    color:white ;
+    
+}
+.button{
+    margin-top: 80px;
+    margin-left: 65px;
+    
+}
+.kembali{
+    background-color: #007bff;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.logout{
+    background-color: #007bff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+

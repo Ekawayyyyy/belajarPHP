@@ -4,16 +4,7 @@
       header('location:login.php');
   }
 
-  $host = "localhost";
-  $user = "root";
-  $pass = "";
-  $database = "belajar_web";
-  
-  $koneksi = mysqli_connect($host, $user, $pass, $database);
-
-  if (mysqli_connect_error()) {
-    echo "Koneksi database gagal : " . mysqli_connect_error();
-}
+include "koneksi.php";
 
   $id = $_GET['id'];
 
@@ -81,7 +72,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td></td>
+                    <td></td>2
                     <td><button type="submit" name="submit">simpan</button></td>
                 </tr>
             </table>

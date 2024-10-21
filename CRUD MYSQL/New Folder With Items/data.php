@@ -5,16 +5,7 @@ if(empty($_SESSION['username'])){
     header('location:login.php');
 }
 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$database = "belajar_web";
-
-$koneksi = mysqli_connect($host, $user, $pass, $database);
-
-if (mysqli_connect_error()) {
-    echo "Koneksi database gagal : " . mysqli_connect_error();
-}
+include "koneksi.php";
 
 $data = $koneksi->query("SELECT * FROM karyawan");
 $karyawan = $data->fetch_all(MYSQLI_ASSOC);

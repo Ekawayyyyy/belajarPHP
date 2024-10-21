@@ -3,13 +3,7 @@
     if(empty($_SESSION['username'])){
         header('location:login.php');
     }
-
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
-    $database = "belajar_web";
-    
-    $koneksi = mysqli_connect($host, $user, $pass, $database);
+    include "koneksi.php";
 
     if (isset($_POST['submit'])) {
        

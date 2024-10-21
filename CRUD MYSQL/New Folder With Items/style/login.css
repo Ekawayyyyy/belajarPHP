@@ -95,9 +95,10 @@ input{
 
 button{
     margin-top: 50px;
-    height: 30%;
+    height: 30px;
     width:80%;
     padding: 10px;
+    box-sizing: border-box;
     border-radius: 10px;
     border: none;
     background-color: #DABF92;

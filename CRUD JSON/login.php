@@ -71,11 +71,7 @@
                 <?php } ?>
             </form>
         </div>
-             
     </div>
-
-        
-        
     </div>
 
    

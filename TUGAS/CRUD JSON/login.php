@@ -47,24 +47,32 @@
     
 </head>
 <body>
-<div class="container">
-        <form action="#" method="post"  class="login-form">
-            <h2>Login</h2>
-            <div class="input-group">
-                <i class="fas fa-user"></i>
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-            <div class="input-group">
-                <i class="fas fa-lock"></i>
-                <input type="password" name="password" placeholder="Password" required>
-            </div>
-            <button type="submit" name="login">Login</button>
-            <?php
-            if($kondisi==2){
-                echo "<p style='color:red'>username dan password tidak sesuai</p>";
-            }
-            ?>
-        </form>
+    <h1 align="center">SELAMAT DATANG</h1>
+    <h3 align="center">FORM LOGIN CRUD JSON</h3>
+
+    <div class="card-form">
+        <div class="image"><img src="./assets/login.jpg" alt=""></div>
+        <div class="form">
+            <form action="" method="post">
+                
+                <h2> <b>Get Started</b></h2>
+                <label for="username">Username</label>
+                <input type="username" name="username" placeholder="masukkan username"><br>
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="masukkan password">
+                <center>
+                    <button type="submit" name="submit"><b>Login</b></button>
+                </center>
+
+                <div class="regist">
+                    <p color="blue">Do yout have a account ? Sign Up</p>
+                </div>
+                <?php if( $kondisi ==2) { ?>
+                        <script>alert('username atau password salah')</script>
+                <?php } ?>
+            </form>
+        </div>
+    </div>
     </div>
    
 

@@ -13,5 +13,15 @@
         "nama": "Minyak Bimoli 5 Liter",
         "harga": "87000",
         "stok": "18"
+    },
+    {
+        "nama": "Beras Mawar Merah 20 Kilo",
+        "harga": "225000",
+        "stok": "16"
+    },
+    {
+        "nama": "Kecap ABC 5 Liter",
+        "harga": "130000",
+        "stok": "30"
     }
 ]

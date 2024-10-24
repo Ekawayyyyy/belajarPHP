@@ -16,15 +16,16 @@ form{
     background-color: #f3f1f1;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 80%;
 }
 table{
     width: 90%;
 }
 
-.input{
+input[type="text"]{
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
     margin-bottom: 10px; 
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -36,6 +37,7 @@ select{
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
 button{
     width: 50%;
     padding: 10px;
@@ -54,4 +56,10 @@ textarea{
     margin-bottom: 10px; 
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+label{
+    font-size: 12px;
+    margin: auto;
+    display: block;
 }

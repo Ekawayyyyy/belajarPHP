@@ -22,11 +22,15 @@ $i = 1;
     <h1>DATA TAMU</h1>
     <div class="content">
         <button>
-            <a href="create.php">tambah lagi</a>
+            <a href="create.php">Add</a>
         </button>
+        <button>
+            <a href="logout.php">Logout</a>
+        </button>
+       
         <table border="1">
             <tr>
-                <th>No</th>
+                <th>No</th> 
                 <th>Nama</th>
                 <th>Alamat</th>
                 <th>No. Telp</th>

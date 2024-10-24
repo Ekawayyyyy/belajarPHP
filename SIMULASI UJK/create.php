@@ -48,17 +48,17 @@ if(isset($_POST['submit'])){
                 <tr>
                     <td><label for="">Nama</label></td>
                     <td>:</td>
-                    <td><input type="text" name="nm"  classname="input" required></td>
+                    <td><input type="text" name="nm" width="200" classname="in" required></td>
                 </tr>
                 <tr>
                     <td><label for="">Alamat</label></td>
                     <td>:</td>
-                    <td><input type="text" name="alamat" classname="input" required></td>
+                    <td><input type="text" name="alamat" classname="in" required></td>
                 </tr>
                 <tr>
                     <td><label for="">No.Telp</label></td>
                     <td>:</td>
-                    <td><input type="text" name="telp" classname="input" required></td>
+                    <td><input type="text" name="telp" classname="in" required></td>
                 </tr>
                 <tr>
                     <td><label for="">Pilihan Sebagai</label></td>
@@ -74,7 +74,7 @@ if(isset($_POST['submit'])){
                 <tr>
                     <td><label for="">Jenis Kelamin</label></td>
                     <td>:</td>
-                    <td >
+                    <td class="jk">
                         <input type="radio" name="jk" value="Laki-laki" classname="jk" required>
                         <label for="">Laki-laki</label>
                         <input type="radio" name="jk" value="Perempuan" classname="jk" required>

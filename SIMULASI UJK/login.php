@@ -2,7 +2,7 @@
     session_start();
     //kondisi yang mengecek apakah username telah terisi ato login atau belum
     if(!empty($_SESSION['username'])){
-        header('location:data.php');
+        header('location:read.php');
     }
     
     $akun = [
@@ -62,7 +62,7 @@
              <p>username dan password salah</p>
         <?php } ?>
         </form>
-    </div>
+</div>
    
    
 </body>

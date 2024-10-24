@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    justify-content: center;
+    background-color: #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    margin: auto;
+    padding: 20px;
+    background-color: #f3f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+table{
+    width: 90%;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+select{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button{
+    width: 50%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}

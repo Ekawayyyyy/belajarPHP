@@ -1,7 +1,9 @@
 
       body {
           font-family: 'Poppins', sans-serif;
-          background-color: #ccc;
+          background-image: url('bag.png');
+          background-size: cover;
+          background-repeat: no-repeat;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -10,7 +12,8 @@
       }
 
       .container {
-          background-color: white;
+          backdrop-filter: blur(10px);
+          background-color: rgba(17, 25, 40, 0.30);
           padding: 20px;
           border-radius: 10px;
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

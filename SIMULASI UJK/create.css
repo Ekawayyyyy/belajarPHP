@@ -1,7 +1,8 @@
 body{
     margin: auto;
     justify-content: center;
-    background-color: #ccc;
+    background-image: url('bag.png');
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,7 +14,7 @@ h1{
 form{
     margin: auto;
     padding: 20px;
-    background-color: #f3f1f1;
+    background-color: #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 80%;

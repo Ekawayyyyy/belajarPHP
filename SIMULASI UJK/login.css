@@ -1,7 +1,7 @@
 
       body {
           font-family: 'Poppins', sans-serif;
-          background-image: url('bag.png');
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bag.png');
           background-size: cover;
           background-repeat: no-repeat;
           display: flex;
@@ -10,9 +10,26 @@
           height: 100vh;
           margin: 0;
       }
+      .hero{
+        display: flex;
+        overflow: hidden;
+      }
 
+      .form-group{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .gambar{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .container {
-          backdrop-filter: blur(10px);
+          backdrop-filter: blur(50px);
           background-color: rgba(17, 25, 40, 0.30);
           padding: 20px;
           border-radius: 10px;
@@ -23,13 +40,18 @@
       .login-form h2 {
           text-align: center;
           margin-bottom: 20px;
+          color: #ffffff;
       }
 
       .input-group {
           position: relative;
           margin-bottom: 15px;
       }
-
+      p{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+      }
       .input-group i {
           position: absolute;
           border-radius: 5px 0 0 5px;

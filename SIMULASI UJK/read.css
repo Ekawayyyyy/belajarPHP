@@ -1,7 +1,10 @@
 body{
     margin: auto;
     justify-content: center;
-    background-color: #ccc;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bag.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -26,7 +29,7 @@ th{
     width: 20px;
 }
 th, td{
-    padding: 10px;
+    padding: 5px;
     text-align: left;
     border-bottom: 1px solid #cecece;
 }

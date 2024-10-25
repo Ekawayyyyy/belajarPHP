@@ -44,9 +44,10 @@ if(isset($_POST['submit'])){
 <body>
         <h1>BUKU TAMU</h1>
         <form action="" method="post">
+            <a href="read.php">Lihat Data</a>
             <table>
                 <tr>
-                    <td><label for="">Nama</label></td>
+                    <td><label for="nm" class="nama">Nama</label></td>
                     <td>:</td>
                     <td><input type="text" name="nm" width="200" classname="in" required></td>
                 </tr>
@@ -74,11 +75,11 @@ if(isset($_POST['submit'])){
                 <tr>
                     <td><label for="">Jenis Kelamin</label></td>
                     <td>:</td>
-                    <td class="jk">
-                        <input type="radio" name="jk" value="Laki-laki" classname="jk" required>
-                        <label for="">Laki-laki</label>
-                        <input type="radio" name="jk" value="Perempuan" classname="jk" required>
-                        <label for="">Perempuan</label>
+                    <td>
+                        <input type="radio" name="jk" value="Laki-laki" class="jk" required>Laki-Laki
+                       
+                        <input type="radio" name="jk" value="Perempuan" class="jk" required>Perempuan
+                      
                     </td>
                 </tr>
                 <tr>

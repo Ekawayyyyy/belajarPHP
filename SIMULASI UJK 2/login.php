@@ -34,6 +34,7 @@
             justify-content: center;
             background-image: url('bag.png');
             background-size: cover;
+            /* background: #15202B; */
 
         }
 
@@ -88,32 +89,39 @@
     </style>
 </head>
 <body>
-    <form action="" method="post">
-        <h2>Login</h2>
-            <div class="login">
-                <label for="">Username</label><br>
-               <center>
-                    <input type="username" name="username" placeholder="masukkan username" required>
-               </center>
-            </div>
+    <div class="hero">
+        <div class="form-group">
+            <form action="" method="post">
+                <h2>Login</h2>
+                    <div class="login">
+                        <label for="">Username</label><br>
+                    <center>
+                            <input type="username" name="username" placeholder="masukkan username" required>
+                    </center>
+                    </div>
 
-            <div class="pass">
-                <label for="password">Password</label><br>
+                    <div class="pass">
+                        <label for="password">Password</label><br>
+                        <center>
+                            <input type="password" name="password" placeholder="masukkan password" required>
+                        </center>
+                    
+                    </div>
                 <center>
-                    <input type="password" name="password" placeholder="masukkan password" required>
+                    <button type="submit" name="submit">submit</button><br><br>
                 </center>
-               
-            </div>
-        <center>
-             <button type="submit" name="submit">submit</button><br><br>
-        </center>
-      
-       <?php
-        if($kondisi==2){
-            echo "Username dan Password Salah";
-       }
+            
+                <?php
+                    if($kondisi==2){
+                        echo "Username dan Password Salah";
+                }?>
+            </form>
+        </div>
 
-       ?>
-    </form>
+        <div class="gambar">
+                <img src="bag.png" alt="">
+        </div>
+    </div>
+   
 </body>
 </html>

@@ -21,11 +21,11 @@ $i = 1;
 
     <h1>DATA TAMU</h1>
     <div class="content">
-        <button>
-            <a href="create.php">Add</a>
+        <button for"add">
+            <a  name="add" href="create.php">Add</a>
         </button>
-        <button>
-            <a href="logout.php">Logout</a>
+        <button for"log">
+            <a name="log" href="logout.php">Logout</a>
         </button>
        
         <table border="1">

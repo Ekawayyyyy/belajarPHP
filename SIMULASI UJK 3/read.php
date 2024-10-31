@@ -147,8 +147,11 @@
                 <img src="logo.png" alt="">
             </div>
             <div class="button">
-                <button type="submit" name="logout">Logout</button>
+                <form action="logout.php" method="POST">
+                    <button type="submit" name="logout">Logout</button>
+                </form>
             </div>
+
         </div>
         <div class="content">
                 <br>

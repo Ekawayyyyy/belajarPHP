@@ -43,6 +43,7 @@
     <style>
         * {
             font-family: 'Poppins', sans-serif;
+            margin: 0;
         }
         .container {
             margin: auto;
@@ -52,8 +53,9 @@
         .navbar {
             width: 100%;
             height: 200px;
+            padding-top: 50px;
             margin: 0;
-            background-color: #091057;
+            background-color: #36157D;
         }
         .navbar .logo {
             width: 30%;
@@ -65,7 +67,6 @@
             width: 160px;
             height: 160px;
             margin-left: 180px;
-            margin-top: 20px;
             display: inline;
         }
         .navbar .title {
@@ -125,7 +126,7 @@
         .footer {
             width: 100%;
             height: 50px;
-            background-color: #091057;
+            background-color: #36157D;
         }
     </style>
 </head>

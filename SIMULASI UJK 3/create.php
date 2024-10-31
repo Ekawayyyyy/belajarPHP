@@ -20,9 +20,10 @@
 
         }
         .navbar{
+           
             width: 100%;
             height:100px;
-            background-color: #091057;
+            background-color: #36157D;
 
         }
         .navbar .logo{
@@ -113,7 +114,7 @@
         .footer{
             width: 100%;
             height:50px;
-            background-color: #091057;
+            background-color: #36157D;
         }
     </style>
 </head>
@@ -124,8 +125,11 @@
                 <img src="logo.png" alt="">
             </div>
             <div class="button">
-                <button type="submit" name="logout">Logout</button>
+                <form action="logout.php" method="POST">
+                    <button type="submit" name="logout">Logout</button>
+                </form>
             </div>
+
         </div>
         <div class="content">
             <center>

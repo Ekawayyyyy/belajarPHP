@@ -53,9 +53,6 @@
         "komentar": "thbygtnb",
         "waktu": "2024-10-24 11:10 AM"
     },
-
-
-
     {
         "nm": "afifah nahda rafanda",
         "alamat": "pattene",
@@ -64,5 +61,23 @@
         "jk": "Perempuan",
         "komentar": "gnhnythnhn",
         "waktu": "2024-10-25 09:59 AM"
+    },
+    {
+        "nm": "Dian Reski Amanda",
+        "alamat": "Sidrap",
+        "telp": "08958374292",
+        "pilihan": "umum",
+        "jk": "Perempuan",
+        "komentar": "bagusss sekaliii",
+        "waktu": "2024-10-26 11:30 AM"
+    },
+    {
+        "nm": "Dian Reski Amanda",
+        "alamat": "pattene raya",
+        "telp": "08958374292",
+        "pilihan": "anggota",
+        "jk": "Perempuan",
+        "komentar": "ini data baru di input",
+        "waktu": "2024-10-30 17:56 PM"
     }
 ]

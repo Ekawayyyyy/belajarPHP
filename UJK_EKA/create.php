@@ -29,7 +29,7 @@
     
 </head>
 <body>
-    <div class="container">\
+    <div class="container">
 
         <div class="navbar">
             <a href="create.php">Form Input</a>
